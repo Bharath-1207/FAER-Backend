@@ -10,3 +10,6 @@ def read_item(item_id: int):
 @app.get("/home")
 def function():
     return "Hello word";
+@app.get("/hari")
+def function():
+    return "Hello hari";
