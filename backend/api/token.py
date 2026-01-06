@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 import secrets
-from app.storage.token_store import create_token
+from backend.storage.token_store import create_token
 
 router = APIRouter()
 
