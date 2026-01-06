@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api import token, protected
+from backend.api import token, protected
 
 app = FastAPI(title="GuardianToken Backend")
 
